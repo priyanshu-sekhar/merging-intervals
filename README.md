@@ -30,7 +30,7 @@ O(nlog(n))
 ```
 
 ### Space Complexity
-Space is consumed in the parse_input step where a list is created to contain items. The merge_intervals step will also take **O(n)** space. Hence the overall space complexity is:
+Space is consumed in the parse_input step where a list of size **O(n)** is created to contain items. The merge_intervals step will also take **O(n)** space to store results. Hence the overall space complexity is:
 ```angular2html
 O(n)
 ```
